@@ -86,24 +86,10 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* === Main Content === */
-.main { max-width: var(--max-width); margin: 0 auto; padding: 0 20px 60px; }
+.main { max-width: var(--max-width); margin: 0 auto; padding: 24px 20px 60px; }
 
-/* === Controls === */
-.controls {
-  position: sticky;
-  top: 108px;
-  z-index: 90;
-  background: rgba(247, 248, 250, 0.92);
-  backdrop-filter: saturate(180%) blur(10px);
-  -webkit-backdrop-filter: saturate(180%) blur(10px);
-  padding: 14px 0 10px;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.3s;
-}
-
-.controls.scrolled { border-bottom-color: var(--border); }
-
-.search-wrap { margin-bottom: 12px; }
+/* === Search === */
+.search-wrap { position: relative; margin-bottom: 14px; }
 
 .search-input {
   width: 100%;
@@ -130,8 +116,6 @@ a { color: inherit; text-decoration: none; }
   color: var(--ink-tertiary);
   pointer-events: none;
 }
-
-.search-wrap { position: relative; }
 
 /* === Filter Pills === */
 .filter-section { margin-bottom: 8px; }
@@ -200,13 +184,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 20px;
   font-weight: 700;
   color: var(--ink);
-  padding: 10px 0 4px;
-  position: sticky;
-  top: 204px;
-  background: rgba(247, 248, 250, 0.92);
-  backdrop-filter: saturate(180%) blur(10px);
-  -webkit-backdrop-filter: saturate(180%) blur(10px);
-  z-index: 50;
+  padding: 24px 0 6px;
   display: flex; align-items: baseline; gap: 8px;
 }
 
@@ -324,7 +302,7 @@ a { color: inherit; text-decoration: none; }
 .read-link .arrow { font-size: 11px; }
 
 /* === Empty & Error States === */
-.empty-state, .error-state, .loading-state {
+.empty-state, .error-state {
   text-align: center;
   padding: 60px 20px;
   color: var(--ink-secondary);
@@ -336,29 +314,17 @@ a { color: inherit; text-decoration: none; }
   display: block;
 }
 
-.empty-state h3, .error-state h3, .loading-state h3 {
+.empty-state h3, .error-state h3 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 6px;
   color: var(--ink);
 }
 
-.empty-state p, .error-state p, .loading-state p {
+.empty-state p, .error-state p {
   font-size: 14px;
   color: var(--ink-tertiary);
 }
-
-/* === Loading Spinner === */
-.spinner {
-  width: 32px; height: 32px;
-  border: 3px solid var(--border);
-  border-top-color: var(--swp);
-  border-radius: 50%;
-  animation: spin 0.7s linear infinite;
-  margin: 0 auto 12px;
-}
-
-@keyframes spin { to { transform: rotate(360deg); } }
 
 /* === Footer === */
 .footer {
@@ -376,9 +342,8 @@ a { color: inherit; text-decoration: none; }
 /* === Responsive === */
 @media (max-width: 560px) {
   .header-inner { padding: 14px 16px 10px; }
-  .main { padding: 0 16px 40px; }
-  .controls { top: 88px; padding: 10px 0 8px; }
-  .date-header { top: 180px; font-size: 17px; }
+  .main { padding: 16px 16px 40px; }
+  .date-header { font-size: 17px; }
   .card { padding: 16px; }
   .card-title { font-size: 15.5px; }
   .card-summary { font-size: 13.5px; }

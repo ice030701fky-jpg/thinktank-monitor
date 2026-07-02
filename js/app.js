@@ -73,7 +73,6 @@ function renderAll() {
   const filtered = getFilteredArticles();
   renderFilters(filtered);
   renderArticleList(filtered);
-  updateSearchCount(filtered.length);
 }
 
 function renderStats() {
@@ -191,7 +190,7 @@ function renderArticleList(filteredArticles) {
       const topic = tag.dataset.topic;
       activeTopic = topic;
       renderAll();
-      document.querySelector(".controls").scrollIntoView({ behavior: "smooth" });
+      document.querySelector(".search-wrap").scrollIntoView({ behavior: "smooth" });
     });
   });
 }
@@ -234,11 +233,6 @@ function handleSearch(e) {
   }, 250);
 }
 
-function updateSearchCount(count) {
-  const el = document.getElementById("search-count");
-  if (el) el.textContent = `找到 ${count} 篇文章`;
-}
-
 // === Utilities ===
 function formatDate(dateStr) {
   const parts = dateStr.split("-");
@@ -275,15 +269,7 @@ function renderError(msg) {
 
 // === Scroll Effects ===
 function handleScroll() {
-  const controls = document.querySelector(".controls");
   const backToTop = document.getElementById("back-to-top");
-
-  if (window.scrollY > 80) {
-    controls?.classList.add("scrolled");
-  } else {
-    controls?.classList.remove("scrolled");
-  }
-
   if (window.scrollY > 400) {
     backToTop?.classList.add("visible");
   } else {
