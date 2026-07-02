@@ -187,7 +187,72 @@
         "India"
       ],
       "type": "SWP Research Paper"
+    },
+    {
+      "id": "cigi-23725",
+      "source": "CIGI",
+      "title": "The Macroeconomics of Canadian Space",
+      "title_zh": "加拿大太空经济的宏观视角",
+      "link": "https://www.cigionline.org/publications/the-macroeconomics-of-canadian-space/",
+      "description": "Canada needs access to space. Over 20 percent of the Canadian economy is reliant on space capabilities; losing access to space could result in the loss of $1 billion per day for Canadians. But while many Canadians have a passing understanding of the role of space in economy and defence, it seems that neither the average Canadian nor the Canadian go",
+      "summary_zh": "本文探讨了太空能力对加拿大经济与安全的战略重要性。文章指出，超过20%的加拿大经济依赖于太空基础设施，若失去太空接入，加拿大每天可能损失高达10亿加元。尽管许多加拿大人对太空在经济和国防中的作用有一定了解，但无论是普通民众还是政府决策者，似乎都未能充分认识到太空治理的紧迫性。文章强调，加拿大需要加强太空治理框架，以确保其在全球太空经济中的竞争力，并维护国家安全。作者呼吁加拿大政府采取更积极的政策，包括投资太空技术、加强国际合作，以及制定应对太空碎片和网络安全威胁的法规。文章认为，太空不仅是科学探索的前沿，更是现代经济与国防的基石，加拿大必须将其视为国家战略的核心组成部分。",
+      "authors": [
+        "S. Mike Pavelec"
+      ],
+      "pubDate": "2026-06-25",
+      "categories": [
+        "Trade",
+        "Security"
+      ],
+      "subjects": [
+        "Space Governance"
+      ],
+      "type": "CIGI Publication"
+    },
+    {
+      "id": "cigi-23724",
+      "source": "CIGI",
+      "title": "China’s Economy: Ambition and Challenges",
+      "title_zh": "中国经济：雄心与挑战",
+      "link": "https://www.cigionline.org/publications/chinas-economy-ambition-and-challenges/",
+      "description": "China is in debt. Its debt is nearly 300 percent of its GDP, the fourth highest among the G20. Nevertheless, China has set the ambitious goal of doubling its per capita income from 2020 levels by 2035. Significant challenges stand in its path: its rising debt, a shrinking labour force and growing protectionist pressures.CIGI Senior Fellow Mark Krug",
+      "summary_zh": "本文探讨了中国当前面临的经济困境与未来目标之间的矛盾。文章指出，中国的债务水平已接近GDP的300%，在G20国家中排名第四高。尽管如此，中国仍设定了到2035年将人均收入从2020年水平翻一番的雄心勃勃目标。然而，实现这一目标面临三大挑战：不断攀升的债务负担、劳动力人口萎缩以及日益增长的贸易保护主义压力。作者Mark Krug作为CIGI高级研究员，分析了这些因素如何可能制约中国的经济增长潜力，并强调金融治理和贸易政策在应对这些挑战中的关键作用。文章认为，中国需要在维持经济增长与控制债务风险之间寻求平衡，同时应对全球贸易环境的变化。",
+      "authors": [
+        "Mark Kruger"
+      ],
+      "pubDate": "2026-06-23",
+      "categories": [
+        "Finance",
+        "Trade"
+      ],
+      "subjects": [
+        "Financial Governance",
+        "Trade",
+        "Geopolitics"
+      ],
+      "type": "CIGI Publication"
+    },
+    {
+      "id": "cigi-23721",
+      "source": "CIGI",
+      "title": "Beyond Harmony, Beyond Rhetoric: Politicizing Ubuntu for AI Governance",
+      "title_zh": "超越和谐与修辞：将Ubuntu政治化以推动人工智能治理",
+      "link": "https://www.cigionline.org/publications/beyond-harmony-beyond-rhetoric-politicizing-ubuntu-for-ai-governance/",
+      "description": "Ubuntu is often invoked as more than a language in AI ethics. It is treated as a relational African resource and as an African alternative to liberal individualism, signalling the presence of more careful and thoughtful ethical standards without the handling of harms, power and accountability in AI governance being actually any stronger. This rheto",
+      "summary_zh": "本文探讨了Ubuntu（一种非洲哲学概念，强调人际关系与共同体）在人工智能伦理中的运用。作者指出，Ubuntu常被视作一种关系性非洲资源，以及自由主义个人主义的替代方案，暗示其能带来更谨慎、更具思考性的伦理标准。然而，文章批评这种修辞并未实际增强人工智能治理中对伤害、权力和问责的处理能力。作者主张，应超越表面和谐与空洞修辞，将Ubuntu政治化，即通过批判性审视其权力动态和实际应用，来推动更有效的AI治理框架。文章强调，仅依赖文化资源而不解决治理中的核心问题，可能导致伦理标准的空洞化。因此，需要将Ubuntu从抽象理念转化为具体政策工具，以应对AI带来的挑战，并确保问责机制的落实。这一分析揭示了AI伦理中文化挪用与治理实效之间的张力，呼吁更务实的治理路径。",
+      "authors": [
+        "Anye-Nkwenti Nyamnjoh"
+      ],
+      "pubDate": "2026-06-22",
+      "categories": [
+        "AI"
+      ],
+      "subjects": [
+        "Artificial Intelligence",
+        "Geopolitics"
+      ],
+      "type": "CIGI Publication"
     }
   ],
-  "lastUpdated": "2026-07-02T09:24:53Z"
+  "lastUpdated": "2026-07-02T09:59:03Z"
 }
