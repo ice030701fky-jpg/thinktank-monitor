@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThinkTank Monitor · 智库文章监测</title>
+  <meta name="description" content="每日监测 SWP、CIGI 等国际顶尖智库的最新英文文章，AI 生成中文摘要与主题分类。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-logo">T</div>
+        <div class="brand-text">
+          <h1>ThinkTank Monitor</h1>
+          <span>智库文章监测 · SWP &amp; CIGI Daily Tracking</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Controls -->
+  <div class="controls">
+    <!-- Search -->
+    <div class="search-wrap">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input
+        type="text"
+        id="search-input"
+        class="search-input"
+        placeholder="搜索文章标题、摘要、关键词..."
+        autocomplete="off"
+      >
+    </div>
+
+    <!-- Source Filter -->
+    <div class="filter-section">
+      <div class="filter-label">来源 Source</div>
+      <div class="pill-group" id="source-pills"></div>
+    </div>
+
+    <!-- Topic Filter -->
+    <div class="filter-section">
+      <div class="filter-label">主题 Topic</div>
+      <div class="pill-group" id="topic-pills"></div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Stats -->
+    <div class="stats-bar" id="stats-bar"></div>
+    <div id="search-count" style="display:none;"></div>
+
+    <!-- Loading (shown initially) -->
+    <div class="loading-state" id="loading-state">
+      <div class="spinner"></div>
+      <h3>加载文章数据...</h3>
+      <p>正在从数据源获取最新文章</p>
+    </div>
+
+    <!-- Article List -->
+    <div id="article-list"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>ThinkTank Monitor · 自动每日更新 · 数据来源: <a href="https://www.swp-berlin.org/en/" target="_blank" rel="noopener">SWP Berlin</a> &amp; <a href="https://www.cigionline.org/" target="_blank" rel="noopener">CIGI</a></p>
+    <p style="margin-top:4px;">AI 摘要由 DeepSeek 生成，仅供参考。建议阅读原文获取完整观点。</p>
+  </footer>
+
+  <!-- Back to Top -->
+  <div class="back-to-top" id="back-to-top" title="回到顶部">↑</div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
