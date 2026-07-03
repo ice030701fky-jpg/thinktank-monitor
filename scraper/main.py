@@ -38,7 +38,8 @@ def main():
         logger.error(f"Failed to scrape CIGI: {e}")
 
     if not all_scraped:
-        logger.info("No articles fetched from any source. Done.")
+        logger.info("No articles fetched from any source.")
+        save_articles(ARTICLES_FILE, existing_articles)
         return
 
     # Step 3: Merge and find new articles
@@ -46,7 +47,10 @@ def main():
     logger.info(f"New articles: {len(new_articles)}, Total: {len(merged)}")
 
     if not new_articles:
-        logger.info("No new articles found. Done.")
+        logger.info("No new articles found.")
+        # Still update lastUpdated timestamp
+        save_articles(ARTICLES_FILE, existing_articles)
+        logger.info(f"Updated lastUpdated timestamp in {ARTICLES_FILE}")
         return
 
     # Step 4: AI processing for new articles
