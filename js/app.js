@@ -10,6 +10,7 @@ const TOPIC_LABELS = {
 const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 let allArticles = [];
+let lastUpdated = "";
 let activeSource = "All";
 let activeTopic = "All";
 let searchQuery = "";
@@ -21,6 +22,7 @@ async function init() {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     allArticles = data.articles || [];
+    lastUpdated = data.lastUpdated || "";
   } catch (err) {
     console.error("Failed to load articles:", err);
     renderError("无法加载文章数据。请确保 data/articles.json 文件存在。");
@@ -79,14 +81,31 @@ function renderStats() {
   const bar = document.getElementById("stats-bar");
   const swpCount = allArticles.filter((a) => a.source === "SWP").length;
   const cigiCount = allArticles.filter((a) => a.source === "CIGI").length;
-  const latest = allArticles[0]?.pubDate || "";
+  const updateTime = lastUpdated ? formatUpdateTime(lastUpdated) : "";
   bar.innerHTML = `
     <strong>${allArticles.length}</strong> 篇文章
     <span class="stats-dot"></span>
     <span>SWP: <strong>${swpCount}</strong></span>
     <span>CIGI: <strong>${cigiCount}</strong></span>
-    ${latest ? `<span class="stats-dot"></span>最新: ${latest}` : ""}
+    ${updateTime ? `<span class="stats-dot"></span><span>更新于 ${updateTime}</span>` : ""}
   `;
+}
+
+function formatUpdateTime(isoStr) {
+  try {
+    const d = new Date(isoStr);
+    const now = new Date();
+    const diffMs = now - d;
+    const diffMin = Math.floor(diffMs / 60000);
+    const diffHr = Math.floor(diffMs / 3600000);
+    if (diffMin < 1) return "刚刚";
+    if (diffMin < 60) return `${diffMin} 分钟前`;
+    if (diffHr < 24) return `${diffHr} 小时前`;
+    const months = ["1","2","3","4","5","6","7","8","9","10","11","12"];
+    return `${d.getFullYear()}-${months[d.getMonth()]}-${String(d.getDate()).padStart(2,"0")} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+  } catch(e) {
+    return isoStr;
+  }
 }
 
 function renderFilters(filteredArticles) {
