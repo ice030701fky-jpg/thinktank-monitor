@@ -18,7 +18,8 @@ let searchQuery = "";
 // === Init ===
 async function init() {
   try {
-    const resp = await fetch("data/articles.json");
+    const cacheBuster = Math.floor(Date.now() / 3600000);
+    const resp = await fetch(`data/articles.json?v=${cacheBuster}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     allArticles = data.articles || [];
