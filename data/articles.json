@@ -252,7 +252,28 @@
         "Geopolitics"
       ],
       "type": "CIGI Publication"
+    },
+    {
+      "id": "cigi-23774",
+      "source": "CIGI",
+      "title": "China’s Influence on Standards Development Organizations in the Digital Age",
+      "title_zh": "数字时代中国对标准制定组织的影响力",
+      "link": "https://www.cigionline.org/publications/chinas-influence-on-standards-development-organizations-in-the-digital-age/",
+      "description": "China’s influence on standard setting is growing but not in the way you might expect. Technologically, China is undeniably a powerhouse. However, its influence on key areas of international digital standardization is stunted, and CIGI Senior Fellow Alex He examines this gap in this paper. He identifies three perspectives from which China’s lag can",
+      "summary_zh": "本文由CIGI高级研究员Alex He撰写，探讨了中国在国际数字标准化领域的影响力现状。尽管中国在技术层面无疑是强国，但在关键的国际数字标准化领域，其影响力却受到制约。文章从三个视角分析了中国在这一领域的滞后现象：一是中国在标准制定组织中的参与度和话语权有限；二是国际标准制定过程仍由西方主导，中国难以有效推动自身标准；三是中国国内标准体系与国际标准体系存在差异，导致协调困难。作者指出，中国虽在人工智能等变革性技术领域取得显著进展，但在全球标准制定中的实际影响力与科技实力并不匹配，这一差距值得关注。文章呼吁中国应更积极参与国际标准制定，以缩小这一鸿沟。",
+      "authors": [
+        "Alex He"
+      ],
+      "pubDate": "2026-07-06",
+      "categories": [
+        "AI"
+      ],
+      "subjects": [
+        "Artificial Intelligence",
+        "Transformative Technologies"
+      ],
+      "type": "CIGI Publication"
     }
   ],
-  "lastUpdated": "2026-07-06T12:25:41Z"
+  "lastUpdated": "2026-07-07T11:25:43Z"
 }
