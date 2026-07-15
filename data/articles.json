@@ -293,7 +293,29 @@
         "National Security"
       ],
       "type": "CIGI Publication"
+    },
+    {
+      "id": "cigi-23788",
+      "source": "CIGI",
+      "title": "China’s Central Bank Digital Currency 2.0 and the Future of Digital Finance",
+      "title_zh": "中国央行数字货币2.0与数字金融的未来",
+      "link": "https://www.cigionline.org/publications/chinas-central-bank-digital-currency-20-and-the-future-of-digital-finance/",
+      "description": "China is taking bold steps in integrating a digital yuan into its economy. The e-CNY is neither fully centralized nor decentralized; it goes beyond “digital cash” to become “digital deposit money,” with the ability to grow interest and a two-tiered approach that innovates while strengthening existing financial institutions.As a central bank digital",
+      "summary_zh": "本文探讨了中国在将数字人民币（e-CNY）融入经济体系方面的重大举措。文章指出，e-CNY既非完全中心化也非去中心化，它超越了“数字现金”的概念，演变为“数字存款货币”，具备利息增长能力，并采用双层架构，在创新的同时强化了现有金融机构。作为央行数字货币，e-CNY通过技术治理和数字政策，重塑了金融监管与货币流通模式。文章分析了这一创新如何影响全球金融体系，并强调了其在数字经济和金融治理中的关键作用，预示了未来数字金融的发展方向。",
+      "authors": [
+        "Alex He"
+      ],
+      "pubDate": "2026-07-14",
+      "categories": [
+        "Finance",
+        "AI"
+      ],
+      "subjects": [
+        "Financial Governance",
+        "Digital Economy"
+      ],
+      "type": "CIGI Publication"
     }
   ],
-  "lastUpdated": "2026-07-14T10:19:41Z"
+  "lastUpdated": "2026-07-15T10:22:26Z"
 }
