@@ -1485,7 +1485,49 @@
         "Digital Economy"
       ],
       "type": "CIGI Publication"
+    },
+    {
+      "id": "swp--8632061619213343741",
+      "source": "SWP",
+      "title": "Defining the White Water Zone",
+      "title_zh": "界定白水区域：将寒冷海域作为海上领域作战排序的独立类别",
+      "link": "https://www.swp-berlin.org/publications/products/arbeitspapiere/SWP_WP_Adrians_WhiteWaterZone_2026.pdf",
+      "description": "Cold Seas as a Distinct Category for the Operational Ordering of the Maritime Domain",
+      "summary_zh": "本文提出将“白水区域”（即寒冷海域）作为海上领域作战排序中的一个独立类别进行界定。作者认为，传统上对海上区域的划分主要基于法律地位或地理特征，而忽略了水温等环境因素对军事行动和战略部署的显著影响。文章通过分析寒冷海域在物理特性、装备适应性、人员操作及后勤保障等方面的特殊性，论证了将白水区域单独分类的必要性。这一分类有助于更精准地制定作战计划、优化资源配置，并提升在极地及高纬度地区执行任务的能力。文章还探讨了白水区域分类对国际海上安全合作和战略竞争格局的潜在影响，为相关决策者和研究人员提供了新的分析框架。",
+      "authors": [
+        "Helge Adrians"
+      ],
+      "pubDate": "2026-07-22",
+      "categories": [
+        "Security"
+      ],
+      "subjects": [],
+      "type": "Working Paper"
+    },
+    {
+      "id": "swp-4667205030514297651",
+      "source": "SWP",
+      "title": "The failed coup and Turkey’s path towards autocracy",
+      "title_zh": "未遂政变与土耳其的威权化之路",
+      "link": "https://www.swp-berlin.org/en/publication/the-failed-coup-and-turkeys-path-towards-autocracy",
+      "description": "On 15 July 2016, factions within the Turkish military attempted to overthrow President Recep Tayyip Erdoğan and the government. The coup failed due to resistance from the public, opposition from the political leadership and divisions within the army itself. For Erdoğan, this presented a valuable political opportunity. Citing the need to avert further danger, he initiated far-reaching purges across the state apparatus and began a fundamental restructuring of the political system. Purges and institutional restructuring under a state of emergency On 21 July 2016, Parliament approved a state of emergency declared by the government. It remained in force until mid-July 2018. Erdoğan used it to carry out comprehensive purges across the state apparatus with 32 emergency decrees. Around 130,000 public-sector employees were dismissed. By the end of 2016, the authorities had arrested around 125,000 people, including 36,000 to 40,000 who were placed in pre-trial detention – with 149 journalists among them. By the end of 2022, the number of arrests and detentions in connection with the coup attempt had risen to around 332,000, with 4,000 judges and prosecutors losing their posts. Thousands of private schools, universities and foundations were closed by decree. A further 131 media companies were shut down, including 45 newspapers, 16 television stations, 23 radio stations and 3 news agencies. The authorities also revoked the passports of tens of thousands of people.&nbsp; Extensive repression and the resulting climate of fear significantly restricted political competition and public debate. In this environment, the government initiated a restructuring of Turkey’s institutions. The decisive step was the constitutional referendum held in April 2017, in which a narrow majority voted to introduce a presidential system that significantly expanded the president’s powers. International election observers reported irregularities and concluded that the referendum was not free or fair. The legitimacy of the result remained controversial, not least because the Supreme Electoral Committee subsequently admitted around two million improperly stamped ballots on election night, thereby pushing the referendum to a narrow victory. The constitutional amendment strengthened executive power and largely concentrated it in the hands of the president. He was given extensive executive and appointment powers, while Parliament’s oversight and veto rights were restricted. In addition, the growing influence of the executive has weakened judicial independence. Numerous political scientists initially classified Turkey as a “competitive authoritarian” regime, with more recent analyses increasingly assessing it as an “autocracy”. International governance indices document this development. Turkey’s score in the Liberal Democracy Index nearly halved within a few years. Freedom House downgraded Turkey from “Partly Free” to “Not Free” in 2018. Since the state of emergency, the World Justice Project’s Rule of Law Index has also shown significant deficits in the rule of law and judicial independence. The economic consequences of autocratisation in Turkey Autocratisation was accompanied by a significant erosion of the central institutional framework of the Turkish economy. The weakening of democratic institutions, the rule of law and the protection of property rights, as well as the loss of central bank independence, increased uncertainties about economic policy. The growing concentration of power and the dismantling of institutional constraints on government action have negatively impacted the predictability of economic policy. This was reflected in key economic indicators, which pointed to a marked economic slowdown from 2016 onwards. In the first five years following the coup attempt, average annual real GDP growth fell from 6.5 in the preceding five-year period to 3.5 per cent, despite expansionary monetary and fiscal policies. At the same time, nominal GDP per capita fell from around $11,000 to $9,700. Foreign direct investment inflows also declined from an average of $15 billion to $11 billion. Export growth slowed from 5 to 3 per cent, while inflation rose from 7 to 14 per cent. The Turkish lira also depreciated significantly and became more volatile. There are currently no signs of a sustained economic recovery. The ongoing repression against the opposition party CHP and its mayors, as well as the government’s renewed efforts to amend the constitution to secure its hold on power, are increasing political instability and impacting the investment climate.",
+      "summary_zh": "2016年7月15日，土耳其军方部分派系试图推翻总统埃尔多安政府，但未遂。埃尔多安借此机会，以安全为由宣布紧急状态，实施大规模清洗和制度重构。约13万名公职人员被解职，数十万人被捕，媒体、学校和非政府组织遭关闭。2017年宪法公投引入总统制，极大扩张总统权力，削弱议会监督和司法独立，国际观察员认为公投不公。土耳其被政治学者定性为“竞争性威权”甚至“威权政体”，自由民主指数和法治指数显著下滑。经济上，制度弱化导致政策不确定性增加，GDP增长放缓、通胀上升、货币贬值、外资减少。当前对反对派的持续打压和修宪努力加剧政治不稳定，影响投资环境。",
+      "authors": [
+        "Yaşar Aydın"
+      ],
+      "pubDate": "2026-07-15",
+      "categories": [
+        "Security",
+        "Human Rights"
+      ],
+      "subjects": [
+        "Civil wars",
+        "State and society of a country / a region",
+        "Defence and security policy / armed forces of a country / a region",
+        "Turkey"
+      ],
+      "type": "Point of View"
     }
   ],
-  "lastUpdated": "2026-08-11T09:33:07Z"
+  "lastUpdated": "2026-08-12T09:41:57Z"
 }
